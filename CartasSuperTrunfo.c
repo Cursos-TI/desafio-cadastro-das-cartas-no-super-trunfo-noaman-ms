@@ -2,13 +2,20 @@
 
 // Definindo uma estrutura para armazenar os dados de cada carta
 struct Carta {
-    char estado;                    // Letra de 'A' a 'H'
-    char codigo[4];                // Ex: A01, B03
-    char nomeCidade[50];          // Nome da cidade
-    int populacao;                // Número de habitantes
-    float area;                   // Área em km²
-    float pib;                    // PIB em bilhões de reais
-    int pontosTuristicos;        // Quantidade de pontos turísticos
+    // Letra de 'A' a 'H'
+    char estado;
+    // Ex: A01, B03
+    char codigo[4];
+    // Nome da cidade
+    char nomeCidade[50];
+    // Número de habitantes
+    int populacao;
+    // Área em km²
+    float area;
+    // PIB em bilhões de reais
+    float pib;
+    // Quantidade de pontos turísticos
+    int pontosTuristicos;
 };
 
 int main() {
